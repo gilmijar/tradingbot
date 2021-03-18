@@ -1,0 +1,21 @@
+# this is a comment
+# enter variables and their values,
+# separated by '='
+# whitespace on ends of lines is ignored.
+# variables that have not been initialized in the code are ignored
+# lines containing only whitespace are ignored
+
+lookback_hours = 20
+
+# imperative overrides algo signals
+# use it when a sell or buy is needed no matter the market situation
+
+# imperative values: 0 - auto; 1 - buy; 2- sell; 3 - both; 4 - none
+
+# auto trades normally - no imperative
+# buy and sell do only buying and selling respectively
+# both = janusz
+# none no trading at all, even if there are signals
+
+imperative = 0
+
